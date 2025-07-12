@@ -1,0 +1,125 @@
+🧠 What I Learned in This Module (LAN Topologies + Devices)
+I found this room genuinely fun and engaging!
+
+I learned about different LAN topologies, which helped me better understand why certain network designs are used in real environments. I studied their advantages and disadvantages, which gave me a clearer picture of their strengths and limitations.
+
+⭐ Star Topology
+The most common LAN layout — all devices connect to a central networking device (like a switch or hub). It’s known for being reliable and scalable, though it comes with higher installation and maintenance costs.
+
+Advantages:
+
+Easy to add more devices (scalable)
+
+Reliable central communication
+
+Disadvantages:
+
+More expensive to implement
+
+If the central device fails, the network goes down
+
+🚌 Bus Topology
+A single cable (the “bus”) runs through the network, and all devices tap into it — like leaves on a branch.
+
+Advantages:
+
+Simple to set up
+
+Cost-effective
+
+Disadvantages:
+
+Prone to bottlenecks as more devices join
+
+Troubleshooting can be tricky
+
+No redundancy
+
+🔁 Ring Topology
+Devices are connected in a loop, and data travels in one direction around the ring. This reduces cabling but introduces a single point of failure.
+
+Advantages:
+
+Less chance of collisions (due to one-way traffic)
+
+Easier to identify failure points
+
+Disadvantages:
+
+If one segment fails, the whole network can go down
+
+Not very redundant
+
+Slower data transfer compared to more modern designs
+
+🖧 Switches
+Thanks to my Cisco Networking course, I had some background on switches — they play a key role in LAN networks, acting as the central communication point for Ethernet-connected devices.
+
+Switches are smarter than hubs. They store MAC addresses in a table (MAC address table) so they know which port to send traffic out of, reducing unnecessary data flooding and increasing efficiency.
+
+🌍 Routers
+Routers enable communication beyond the local network (LAN to WAN/Internet). They route data between networks using default gateways, which is like the "exit door" from your local network.
+
+My prior networking experience helped reinforce my understanding of how routers direct traffic, especially across subnets or to the internet.
+
+💭 Final Thoughts
+This room helped reinforce practical knowledge I had from the Cisco Networking course, while also giving me new perspective on the reasons behind LAN 
+
+
+🌍 Subnetting 
+
+Today’s task focused on understanding subnetting—the process of dividing a network into smaller, manageable sub-networks. This is especially useful in larger environments like businesses where departments such as Accounting, HR, and Finance each require their own segment of the network.
+
+Key Concepts Covered:
+Subnetting is like slicing a cake—you divide a finite resource (IP addresses) and assign pieces (subnets) to different groups or functions.
+
+Subnet Masks help define the size and range of a subnet, working alongside IP addresses.
+
+IP Address Breakdown:
+Type	Purpose	Example
+Network Address	Identifies the start of the network.	192.168.1.0
+Host Address	Identifies a specific device on the network.	192.168.1.100
+Default Gateway	Sends traffic to other networks, often .1 or .254 in the subnet range.	192.168.1.254
+
+Why Subnet?
+Efficiency – Organizes IPs and prevents waste.
+
+Security – Keeps sensitive systems (e.g. employee networks) separated from public access points like guest Wi-Fi.
+
+Control – Enables precise network management and segmentation.
+
+Real-World Example:
+A café might use subnetting to keep public Wi-Fi separate from their internal systems like registers and staff devices, maintaining security while still providing Internet access.
+
+📘 OSI Model Overview – The 7 Layers
+
+The OSI (Open Systems Interconnection) model breaks down network communication into 7 layers, each responsible for a specific function in transmitting data from one device to another.
+
+🌐 Layer 7 – Application
+This is where the user interacts with the network (e.g., web browsers, email clients). It provides network services to applications.
+
+🎭 Layer 6 – Presentation
+Responsible for translating data formats (like encryption, compression, encoding). Makes sure data is readable by the destination.
+
+🧠 Layer 5 – Session
+Manages sessions between two devices. Establishes, maintains, and terminates communication sessions.
+
+📦 Layer 4 – Transport
+Controls reliable data transfer with protocols like TCP and UDP. Handles segmentation, error detection, and flow control.
+
+📫 Layer 3 – Network
+Handles routing and logical addressing (IP addresses). Determines the best path for data to travel across networks.
+
+🔗 Layer 2 – Data Link
+Deals with physical addressing (MAC addresses), error detection, and frame delivery over the physical network.
+
+⚙️ Layer 1 – Physical
+Covers the actual hardware transmission — cables, switches, electrical signals, and bits on the wire.
+
+✅ Summary:
+Understanding the OSI model helps troubleshoot where problems occur and better understand how data moves through a network from application to hardware.
+
+
+
+
+
