@@ -1,0 +1,13 @@
+🏁 TryHackMe Pre-Security Path Completed
+I’ve completed the full Pre-Security learning path on TryHackMe!
+This hands-on course gave me a strong foundation in:
+
+🔌 Networking Fundamentals – OSI model, TCP/IP, DNS, Subnetting, LAN topologies
+
+💻 Linux Basics – Terminal navigation, file permissions, package management
+
+🪟 Windows Fundamentals – System tools, file systems, and CLI utilities
+
+🌐 Web Fundamentals – HTTP/HTTPS, HTML, DNS, load balancing, firewalls
+
+This was an essential learning journey that tied together the theory from my previous courses with practical, real-world scenarios. It's been incredibly rewarding and sets the groundwork for more advanced topics to come!
