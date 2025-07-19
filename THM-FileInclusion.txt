@@ -1,0 +1,46 @@
+Challenge 1: 
+🛡️ TryHackMe | Local File Inclusion (LFI) - Challenge 1
+
+In this challenge, I exploited a Local File Inclusion (LFI) vulnerability on a broken input form that no longer accepted GET requests. After multiple failed attempts using curl with POST payloads, I switched tactics.
+
+By inspecting the form through browser developer tools and modifying the request method directly to POST, I was able to interact with the vulnerable include() function on the backend.
+
+🔍 I eventually located and retrieved the flag by targeting /etc/flag1, demonstrating how improper input handling in file includes can expose sensitive server files.
+
+🎯 Key Takeaways:
+
+Reinforced my understanding of LFI vulnerabilities and POST-based exploitation
+
+Gained hands-on experience using browser tools to manipulate client-side behavior
+
+Learned the value of persistence and adapting when tools don’t behave as expected
+
+Always learning — even if it means using a mix of techniques (and the occasional YouTube hint 👀)!
+
+
+
+🛡️ TryHackMe | Local File Inclusion (LFI) - Challenge 2
+
+In this challenge, I exploited a Local File Inclusion vulnerability that relied on insecure client-side role management and poor input validation.
+
+Using browser developer tools, I navigated to the Storage tab and:
+
+🔐 Changed the user role from guest to admin
+📂 Modified the path value to ../../../../../../etc/flag2%00 to bypass the .php file extension constraint (via null byte injection)
+
+This revealed the flag by tricking the server into including a sensitive file outside the intended directory.
+
+🎯 Key Takeaways:
+
+Learned how insecure role management on the client-side can be easily abused
+
+Practiced null byte injection to manipulate file paths
+
+Strengthened my understanding of LFI and local storage tampering
+
+One step closer to thinking like an attacker — and defending like a pro.
+
+
+
+
+
